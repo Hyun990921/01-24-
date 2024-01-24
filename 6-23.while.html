@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head><title>while 문</title></head>
+    <body>
+        <h3>while 문으로 0에서 n까지 합[뒷 글자만 9빼고]</h3>
+        <hr>
+        <script>
+	        let n = prompt("0보다 큰 정수를 입력하세요", 0); 
+	        n = parseInt(n);
+
+	        let i=0, sum=0
+			
+	        while(i<=n) { 
+				if (i%10 !=9) {
+		          sum += i;
+				}
+		    i++;
+	        }
+			
+	        document.write("0에서 " + n + "까지 합은 " + sum + "[뒷글자만 9빼고]");
+        </script>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head><title>switch</title></head>
+    <body>
+        <h3>case를 이용한 학점 매기기</h3>
+        <hr>
+        <script>
+            let grade;
+            let score = prompt("백현준님 점수를 입력하세요.", "100");
+            score = parseInt(score);
+            switch(true) {
+                case (score >=95): grade = "A+"; break;
+                case (score >=90): grade = "A"; break;
+                case (score >=80): grade = "B"; break;
+                case (score >=70): grade = "C"; break;
+                case (score >=60): grade = "D"; break;
+                case (score <60): grade = "F"; break;}
+
+                document.write(score + "점은 " + grade + " 학점 입니다.<br>");
+        </script>
+    </body>
+</html>

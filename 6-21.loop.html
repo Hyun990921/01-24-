@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head><title>반복문</title>
+    <style>
+        h3 {background-color: blue; color:aliceblue;}
+    </style>
+</head>
+<body>
+    <h3>for문</h3>
+    <hr>
+    <script>
+        for(let i = 1; i<100; i=i+2)
+        {document.write("<span> ");
+        document.write(i);
+        document.write("</span>")}
+    </script>
+    <hr>
+    <br>
+    <h3>while문</h3>
+    <hr>
+    <script>
+        let a = 2;
+        while(a<=100) 
+        {document.write("<span> ");
+        document.write(a); a=a+2;
+        document.write("</span>")}
+    </script>
+    <hr>
+    <br>
+    <h3>do-while문</h3>
+    <hr>
+    <script>
+        let b = 0;
+        do {document.write("<span> ");
+            document.write(b); b=b+2;
+            document.write("</span>")}
+        while(b<=100);
+    </script>
+    <hr>
+</body>
+</html>
